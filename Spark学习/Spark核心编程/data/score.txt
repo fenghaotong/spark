@@ -1,0 +1,10 @@
+class1 90
+class2 56
+class1 87
+class1 76
+class2 88
+class1 95
+class1 74
+class2 87
+class2 67
+class2 77

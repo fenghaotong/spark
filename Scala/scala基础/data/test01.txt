@@ -1,0 +1,22 @@
+package scala
+package collection
+package mutable
+
+import generic._
+
+/** A more traditional/primitive style of linked list where the "list" is also the "head" link. Links can be manually
+  * created and manipulated, though the use of the API, when possible, is recommended.
+  *
+  * The danger of directly manipulating next:
+  * {{{
+  *     scala> val b = LinkedList(1)
+  *     b: scala.collection.mutable.LinkedList[Int] = LinkedList(1)
+  *
+  *     scala> b.next = null
+  *
+  *     scala> println(b)
+  *     java.lang.NullPointerException
+  * }}}
+  *
+  *  $singleLinkedListExample
+  *
