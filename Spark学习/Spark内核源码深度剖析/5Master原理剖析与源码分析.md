@@ -8,11 +8,11 @@
 - Spark Master主备切换可以基于两种机制：一种是基于文件系统的，一种是基于Zookeeper的。基于文件系统的主备切换机制，需要在Active Master挂掉之后，由我们手动去切换到Standy Master；而基于Zookeeper的主备切换机制，可以实现自动切换Master。
 - 当Active Master挂掉之后，切换到Standby Master时，Master会做那些操作。
 
-![](img\主备切换机制原理剖析.png)
+![](img/主备切换机制原理剖析.png)
 
 ## 注册机制原理剖析
 
-![](../img/注册机制原理剖析.png)
+![](img/注册机制原理剖析.png)
 
 ## 状态改变处理机制源码分析
 
